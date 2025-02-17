@@ -1,12 +1,11 @@
 tag:
   - multiple_choice
 task: GSS
-dataset_path: csv
+dataset_path: /app/gss_data
 dataset_name: null
-output_type: multiple_choice
 training_split: train
-validation_split: validation
-test_split: null
+validation_split: test
+output_type: multiple_choice
 doc_to_text: "{{backstory}}\nQuestion: {{question}}?\nAnswer:"
 doc_to_target: "{{answer}}"
 doc_to_choice: options
@@ -20,5 +19,4 @@ metric_list:
 metadata:
   version: 1.0
 dataset_kwargs:
-  data_files: /mnt/pccfs2/backed_up/davisforster/silicon_sampling_model/data/test_dataset.csv
   trust_remote_code: true
