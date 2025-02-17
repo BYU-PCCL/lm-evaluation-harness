@@ -1,6 +1,6 @@
 tag:
   - multiple_choice
-task: silicon_sample
+task: GSS
 dataset_path: csv
 dataset_name: null
 output_type: multiple_choice
